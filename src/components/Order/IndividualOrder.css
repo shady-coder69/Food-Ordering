@@ -1,0 +1,40 @@
+.order-items {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.label-text {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.order-id {
+  display: inline-block;
+  border: 2px solid brown;
+  margin: 0;
+  background-color: brown;
+  padding: 2%;
+  border-radius: 20px;
+
+  color: white;
+}
+
+.individual-order-item {
+  margin: 1% 4% 1% 0%;
+  transition: all 0.5s;
+}
+
+.individual-order-item:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.individual-order-item-card {
+  box-shadow: 0 0 10px 0px brown;
+  text-align: center;
+  color: brown;
+  font-weight: bold;
+  width: 8rem;
+  padding: 3%;
+}
